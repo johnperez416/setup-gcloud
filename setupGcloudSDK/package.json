@@ -27,7 +27,7 @@
     "@lifeomic/attempt": "^3.0.0",
     "@types/tmp": "^0.1.0",
     "tmp": "^0.1.0",
-    "typed-rest-client": "^1.7.0"
+    "typed-rest-client": "^1.8.4"
   },
   "devDependencies": {
     "@types/chai": "^4.2.x",
