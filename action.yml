@@ -49,6 +49,10 @@ inputs:
     default: null
     required: false
 
+  install_components:
+    description: List of Cloud SDK components to install
+    required: false
+
   export_default_credentials:
     description: |-
       Export the provided credentials as Google Default Application Credentials.
@@ -68,6 +72,18 @@ inputs:
     default: null
     required: false
 
+  cleanup_credentials:
+    description: |-
+      If true, the action will remove any generated credentials from the
+      filesystem upon completion.
+    default: true
+    required: false
+
+branding:
+  icon: 'terminal'
+  color: 'blue'
+
 runs:
-  using: node12
-  main: setup-gcloud/dist/index.js
+  using: 'node16'
+  main: 'dist/main/index.js'
+  post: 'dist/post/index.js'
