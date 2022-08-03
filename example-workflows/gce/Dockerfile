@@ -10,6 +10,6 @@
 # implied. See the License for the specific language governing permissions and limitations under the
 # License.
 
-FROM ubuntu:latest
+FROM ubuntu:22.04
 
 RUN echo "Hello world"
