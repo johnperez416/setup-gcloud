@@ -33,7 +33,7 @@
     "gaxios": "^3.0.3",
     "google-auth-library": "^6.0.0",
     "googleapis": "^49.0.0",
-    "yaml": "^1.9.2"
+    "yaml": "^2.2.2"
   },
   "devDependencies": {
     "@types/chai": "^4.2.9",
