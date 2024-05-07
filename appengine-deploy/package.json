@@ -28,7 +28,7 @@
     "@types/js-base64": "^2.3.1",
     "@types/tmp": "^0.1.0",
     "child_process": "^1.0.2",
-    "js-base64": "^2.5.2",
+    "js-base64": "^2.6.4",
     "tmp": "^0.1.0"
   },
   "devDependencies": {
