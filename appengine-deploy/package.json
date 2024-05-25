@@ -29,7 +29,7 @@
     "@types/tmp": "^0.1.0",
     "child_process": "^1.0.2",
     "js-base64": "^2.5.2",
-    "tmp": "^0.1.0"
+    "tmp": "^0.2.2"
   },
   "devDependencies": {
     "@types/chai": "^4.2.x",
