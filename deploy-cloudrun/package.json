@@ -30,9 +30,9 @@
   "dependencies": {
     "@actions/core": "^1.2.6",
     "fs": "0.0.1-security",
-    "gaxios": "^3.0.3",
-    "google-auth-library": "^6.0.0",
-    "googleapis": "^49.0.0",
+    "gaxios": "^4.3.3",
+    "google-auth-library": "^9.0.0",
+    "googleapis": "^124.0.0",
     "yaml": "^1.9.2"
   },
   "devDependencies": {
